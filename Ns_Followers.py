@@ -13,7 +13,7 @@ class Ns_Followers:
         
         self.__userid='49395392798' #Enter UserID Here
         self.__username='musti0202musti' #Enter UserName Here
-        self._session='49395392798:ujnTGkNHEM1oH7:20:AYcGci85L20RNEyQKcvVC2ixR-pdcEBC2heoM2fFpA' #Enter SessionID Here
+        self._session='49395392798:9N5KkzP99bCtdD:13:AYdLcMWX109cHwn9u-Cn_B5uAASB-r0PzF8ewdf9ng' #Enter SessionID Here
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
