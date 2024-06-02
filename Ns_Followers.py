@@ -10,10 +10,10 @@ class Ns_Followers:
 
         self.requests=requests
         self.__AES_NoPadding = AES_CBC_NoPadding()
-
-        self.__userid='...' #Enter UserID Here
-        self.__username='...' #Enter UserName Here
-        self._session='...' #Enter SessionID Here
+        
+        self.__userid='49395392798' #Enter UserID Here
+        self.__username='musti0202musti' #Enter UserName Here
+        self._session='49395392798:ujnTGkNHEM1oH7:20:AYcGci85L20RNEyQKcvVC2ixR-pdcEBC2heoM2fFpA' #Enter SessionID Here
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
